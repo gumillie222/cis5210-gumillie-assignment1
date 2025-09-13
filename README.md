@@ -1,6 +1,6 @@
 ## To run
 
-[index.html] is the only file that needs to be run.
+`index.html` is the only file that needs to be run.
 
 ## Attribution
 
