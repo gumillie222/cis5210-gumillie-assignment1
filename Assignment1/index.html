@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Penn - Search Classes</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            @import 
+            url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        </style>
+    </head>
+
+
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <img src="penn-logo.png" alt="Penn Logo">
+            <div>Welcome, <span>Millie</span></div>
+        </div>
+
+        <!-- Title -->
+        <h2>Search Classes</h2>
+
+        <!-- Search Container -->
+        <div class="container">
+            <!-- Semester Selection -->
+            <select>
+            <option>Fall 2025</option>
+            <option>Summer 2025</option>
+            <option>Spring 2025</option>
+            <option>Fall 2024</option>
+            <option>Summer 2024</option>
+            <option>Spring 2024</option>
+            </select>
+
+            <!-- Search Bar -->
+            <input type="text" placeholder="Title, Subject, Instructor, Keyword">
+
+            <!-- Instruction Method -->
+            <select>
+            <option>Instruction Method</option>
+            <option>In-Person</option>
+            <option>Online</option>
+            <option>Hybrid</option>
+            </select>
+
+            <!-- Checkboxes Selection -->
+            <div class="checkbox">
+            <input type="checkbox" id="online">
+            <label for="online">Find courses available to students in online programs</label>
+            </div>
+
+            <div class="checkbox">
+            <input type="checkbox" id="overlap">
+            <label for="overlap">Don't Overlap Primary Cart</label>
+            </div>
+
+            <button>SEARCH</button>
+
+            <!-- Suggestions Section -->
+            <div class="section">
+            <h3>SUGGESTIONS</h3>
+            <button>EXPLORE PROGRAMS</button>
+            <button>DEGREE AUDIT & ADVISING</button>
+            </div>
+
+            <!-- Carts Section -->
+            <div class="section">
+            <h3>CARTS</h3>
+            <button>PRIMARY CART</button>
+            <select class="dropdown">
+                <option>Select a Cart...</option>
+            </select>
+            <button>PRIMARY PLAN</button>
+            </div>
+        </div>
+
+    </body>
+</html>
