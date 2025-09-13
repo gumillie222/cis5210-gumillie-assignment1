@@ -93,7 +93,7 @@ button::before {
 .dropdown select {
   width: 100%;
   padding: 10px;
-  padding-right: 32px;   /* make space for arrow */
+  padding-right: 32px;  
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
@@ -104,7 +104,7 @@ button::before {
   content: "⌄";  
   position: absolute;
   right: 12px;
-  transform: translateY(50%); /* vertical centering */
+  transform: translateY(50%);
   pointer-events: none;  
   color: rgb(119, 118, 118);
   font-size: 16px;
