@@ -30,22 +30,33 @@ h2 {
   font-weight: 200;
 }
 
+h3 {
+  background: #e1e4f1;
+  color: #011F5B;
+  padding: 4px 12px;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
 /* Main Content */
 .container {
-  padding: 16px;
+  padding: 10px;
 }
 
 select, input[type="text"] {
   width: 100%;
   padding: 10px;
-  margin: 8px 0;
+  margin: 6px 0px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
+  box-sizing: border-box; 
+  appearance: none;   
 }
 
 .checkbox {
-  margin: 8px 0;
+  margin: 10px 0;
+  font-size: 14px;
 }
 
 button {
@@ -56,7 +67,7 @@ button {
   border-radius: 4px;
   width: 100%;
   padding: 12px;
-  margin: 10px 0;
+  margin: 4px 0;
   cursor: pointer;
 }
 
@@ -64,20 +75,13 @@ button:hover {
   background: #022c7a;
 }
 
-.section {
-  margin-top: 20px;
-}
-
-.section h3 {
-  margin: 0 0 10px 0;
-  font-size: 14px;
-  color: #011F5B;
-}
-
-.section button {
-  background: #011F5B;
-  text-align: left;
-  padding: 12px;
+button::before {
+  content: "›"; 
+  position: absolute;
+  left: 20px; 
+  transform: translateY(-20%); 
+  font-size: 20px;
+  color: #b4c8f6;
 }
 
 .dropdown {
