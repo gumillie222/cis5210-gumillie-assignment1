@@ -85,5 +85,27 @@ button::before {
 }
 
 .dropdown {
-  margin: 8px 0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown select {
+  width: 100%;
+  padding: 10px;
+  padding-right: 32px;   /* make space for arrow */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.dropdown::after {
+  content: "⌄";  
+  position: absolute;
+  right: 12px;
+  transform: translateY(50%); /* vertical centering */
+  pointer-events: none;  
+  color: rgb(119, 118, 118);
+  font-size: 16px;
 }
